@@ -1,4 +1,4 @@
-const fizzBuzz = require('../Phase_one/fizzBuzz');
+const fizzBuzz = require('../Phase_1/fizzBuzz');
 
 describe('fizzBuzz', () => {
     it('prints fizz if numbers can be devided by 3', () => {
