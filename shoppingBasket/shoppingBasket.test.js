@@ -8,15 +8,15 @@ describe('shoppingBasket', () => {
     });
 
     it('adds new item to the basket', () => {
-        const item1 = {getPrice: () => 10};
-        basket.addItem(item1);
+        const doubleCandy = {getPrice: () => 10};
+        basket.addItem(doubleCandy);
         expect(basket.items.length).toEqual(1);
     });
     it('calculates total price of the basket', () => {
-        const item1 = {getPrice: () => 10};
-        const item2 = {getPrice: () => 20};
-        basket.addItem(item1);
-        basket.addItem(item2);
+        const doubleCandy = {getPrice: () => 10};
+        const doubleCandy2 = {getPrice: () => 20};
+        basket.addItem(doubleCandy);
+        basket.addItem(doubleCandy2);
         expect(basket.getTotalPrice()).toEqual(30);
     });
 });

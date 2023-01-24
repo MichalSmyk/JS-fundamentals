@@ -1,5 +1,5 @@
 const Candy = require('./candy');
-;
+
 
 
 describe('Candy', () => {
